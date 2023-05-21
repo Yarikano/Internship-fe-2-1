@@ -1,0 +1,32 @@
+.results-wrapper {
+	max-width: 500px;
+	margin: 0 auto 25px auto;
+	text-align: center;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h2 {
+		margin: 0 0 50px 0;
+	}
+	.user-box {
+		display: flex;
+
+		.user {
+			span {
+				display: inline-block;
+				margin: 0 15px 0 15px;
+			}
+		}
+	}
+
+}
+.colon {
+	display: inline-block;
+	margin: 0 15px;
+}
+.ant-space {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

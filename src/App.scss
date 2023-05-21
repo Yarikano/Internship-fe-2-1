@@ -1,0 +1,16 @@
+.App {
+	position: relative;
+	background: url('../public/bgchat.png');
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+@import './style/reset.css';
+@import './style/header.scss';
+@import './style/login.scss';
+@import './style/chat.scss';
+@import './style/main.scss';
+@import './style/quiz.scss';
+@import './style/results.scss';
+@import './style/register.scss';
+@import './style/form.scss';

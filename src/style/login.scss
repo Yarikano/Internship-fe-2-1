@@ -1,0 +1,27 @@
+.login-foarm-wrapper {
+	height: 80vh;
+	max-width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	.login-form {
+		width: 100%;
+		background-color: #fff;
+		border: 1px solid #000;
+		padding: 12px;
+		border-radius: 8px;
+	}
+	.login-bg {
+		background-color: #c6dcde;
+	}
+	.ant-form-item-control-input-content {
+		display: flex;
+		button {
+			margin: 0 20px 0 0;
+		}
+	}
+}
+#nest-messages {
+	margin: 0 auto;
+}
